@@ -51,6 +51,9 @@ body{
     justify-content: space-between;
     background: #d4d8e4cf;
     box-shadow: 0px 5px 12px rgb(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .logo{
@@ -102,6 +105,7 @@ body{
     margin-left: 40px;
     margin-bottom: 200px;
     font-size: 1rem;
+    margin-top: 20px;
 }
 
 .msg h4{
@@ -116,8 +120,16 @@ body{
     font-size: 5em;
 }
 
+.msg h2:hover{
+    color: #2b3634b8;
+}
+
 .msg h2 .next{
     color: #2b3634b8;
+}
+
+.msg h2 .next:hover{
+    color:rgb(24, 87, 87);
 }
 
 .msg p{
@@ -129,4 +141,94 @@ body{
     margin-top: 50px;
     margin-left: 200px;
 }
+
+
+/* 33.26 time */
+
+/* From Uiverse.io by cssbuttons-io */ 
+
+/* Hero Section Button implemented */
+.hero-btn {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(161, 137, 232);
+  width: 300px;
+  margin-top: 20px;
+}
+
+.hero-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.hero-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 300px;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.hero-btn::after {
+  background-color: #fff;
+}
+
+.hero-btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+
+/*Now here I am creating all the feauture section*/
+.ship{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: 150px;
+    height: 130px;
+    padding: 20px 40px;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.ship i{
+    font-size: 50px;
+}
+
+.ship h6{
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+#features{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
 
