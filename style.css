@@ -38,6 +38,7 @@ section-p1{
 
 body{
     width: 100%;
+
 }
 
 .logo{
@@ -202,6 +203,13 @@ body{
 
 
 /*Now here I am creating all the feauture section*/
+
+#features{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .ship{
     border-width: 2px;
     border-color: black;
@@ -222,13 +230,113 @@ body{
 .ship h6{
     margin-top: 10px;
     font-size: 1em;
+    border-width: 2px;
 }
 
-#features{
+#Feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    font-family: Arimo;
+}
+
+#Feature h2{
+    color: #465b52;
+    font-size: 2.5em;
+}
+
+#Feature img{
+    height: 200px;
+    margin-right: 10px;
+}
+
+.shipping img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -5px;
+}
+
+.shipping h6{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.order img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -3px;
+}
+
+.order h6{
+    font-size: 1.2em;
+}
+
+.cash img{
+    height: 55px;
+    width: 70px;
+    margin-bottom: -8px;
+}
+
+.cash h6{
+    font-size: 1.2em;
+}
+
+.tag img{
+    height: 50px;
+    width: 50px;
+}
+
+.tag h6{
+    font-size: 1.3em;
+    margin-left: -10px;
+}
+
+.sell img {
+    height: 50px;
+    width: 50px;
+}
+
+.sell h6{
+    font-size: 1.2em;
+    margin-bottom: -5px;
+}
+
+.available img{
+    height: 50px;
+    width: 50px;
+}
+
+.available h6{
+    font-size: 1.2em;
+    margin-bottom: -5px;
+}
+
+/* Products styling started */
+
+#Products {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
 }
 
+.product1 img {
+    height: 200px;
+    width: 200px;
+}
+
+.product1 {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
 
 
